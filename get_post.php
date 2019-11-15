@@ -82,14 +82,14 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
     			}
     		}
     	$rssresults .= 	'<dc:creator><![CDATA[vk.com]]></dc:creator>
-    	<category><![CDATA[Ремонт]]></category>
+    	<category><![CDATA[{Рубрика}]]></category>
     	<guid isPermaLink="false">'.$wall[$i]->id.'</guid>
     	<description><![CDATA['.$text.']]></description>
     	<content:encoded><![CDATA['.$wall[$i]->text.'<br/>'.$rssimg.']]></content:encoded>
     	</item>';
 	    }else{
 	        $rssresults .= 	'<dc:creator><![CDATA[vk.com]]></dc:creator>
-        	<category><![CDATA[Ремонт]]></category>
+        	<category><![CDATA[{Рубрика}]]></category>
         	<guid isPermaLink="false">'.$wall[$i]->id.'</guid>
         	<description><![CDATA['.$wall[$i]->text.']]></description>
         	<content:encoded><![CDATA['.$wall[$i]->text.'<br/>'.$rssimg.']]></content:encoded>
